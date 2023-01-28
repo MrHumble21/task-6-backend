@@ -3,8 +3,9 @@ import bodyParser from "body-parser";
 // import dotenv from 'do'
 const app = express();
 const port = 1111;
+import cors from "cors";
 import { Message, User } from "./db.js";
-
+app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 // dotenv.config();
