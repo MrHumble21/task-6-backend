@@ -9,6 +9,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 // dotenv.config();
 
+app.get("/", (req, res) => {
+  res.send("Hello World");
+});
 app.post("/create_user", async function (req, res) {
   const users = await User.find({ Name: req.body.name });
   try {
