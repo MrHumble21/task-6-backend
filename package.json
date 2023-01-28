@@ -1,0 +1,20 @@
+{
+  "name": "email_app",
+  "version": "1.0.0",
+  "description": "email application powered by Abdulboriy",
+  "main": "server.js",
+  "author": "Abdulboriy",
+  "license": "Abdulboriy",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^6.8.4",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.28.0",
+    "sqlite3": "^5.1.4",
+    "uuid": "^9.0.0"
+  }
+}
